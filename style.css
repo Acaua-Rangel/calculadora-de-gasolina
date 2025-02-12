@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    font-family: "Open Sans", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+body {
+    background: linear-gradient(#315503 0%, #142400 60%);
+    height: 100vh;
+    margin: 0;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    width: 100vw;
+}
+
+header img {
+    height: 46px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3%;
+}
+
+#forms {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    width: 300px;
+    padding: 0px 20px 25px 20px;
+}
+
+#forms p {
+    font-size: 20px;
+}
+
+#steps {
+    display: flex;
+    gap: 20px;
+}
+
+#steps div {
+    color: #315503;
+    display: flex;
+    border-radius: 100%;
+    height: 30px;
+    width: 30px;
+    border: 2px solid #315503;
+    align-items: center;
+    justify-content: center;
+}
+
+.inputs {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    width: 100%;
+}
+
+.inputs label {
+    font-weight: 300;
+}
+
+.inputs input {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 10px;
+    height: 35px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.inputs input:focus {
+    outline: none; /* Remove a borda padrão do navegador */
+    border-color: transparent; /* Torna a borda transparente */
+}
+
+#buttons {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 5px;
+}
+
+#buttons button {
+    display: block;
+    width: 100%;
+    text-align: center;
+    height: 40px;
+    border-radius: 10px;
+}
+
+#buttons button:hover {
+    opacity: 70%;
+    transition: 500ms;
+}
+
+#buttons button:focus {
+    outline: none; /* Remove a borda padrão do navegador */
+    border-color: transparent; /* Torna a borda transparente */
+}
+
+#btn-back {
+    background-color: transparent;
+    border: 1px solid black;
+}
+
+#btn-next {
+    background-color: #315503;
+    color: white;
+    border: none;
+}
+
+#cals {
+    max-height: 60vh; /* Define a altura máxima da div como a altura da viewport */
+    overflow-y: auto; /* Habilita o scroll vertical */
+    padding: 10px; /* Apenas para visualização */
+}
+
+
+.opacity {
+    opacity: 30%;
+}
+
+@media screen and (max-width: 350px) {
+    #forms {
+        width: 80%;
+    }
+}

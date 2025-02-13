@@ -4,9 +4,7 @@
 A ideia principal do projeto é o desenvolvimento de um código que possibilite o cálculo do gasto de gasolina com base no consumo do carro e no preço da gasolina em diferentes postos.
 
 <h2>💻 Tecnologias</h2>
-<img loading="lazy" src="https://img.shields.io/badge/javascript-yellow?style=for-the-badge&logo=javascript&logoColor=white" target="_blank"/>
-<img loading="lazy" src="https://img.shields.io/badge/css-blue?style=for-the-badge&logo=CSS&logoColor=white" target="_blank"/>
-<img loading="lazy" src="https://img.shields.io/badge/html-red?style=for-the-badge" target="_blank"/>
+<img loading="lazy" src="https://img.shields.io/badge/javascript-yellow?style=for-the-badge&logo=javascript&logoColor=white" target="_blank"/> <img loading="lazy" src="https://img.shields.io/badge/css-blue?style=for-the-badge&logo=CSS&logoColor=white" target="_blank"/> <img loading="lazy" src="https://img.shields.io/badge/html-red?style=for-the-badge" target="_blank"/>
 
 <h2>🧩 Lógica</h2>
 Ao executar o arquivo <b>DESAFIO_LOGICA ACAUÃ RANGEL.html</b>, aparecerá a seguinte tela:
